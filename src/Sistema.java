@@ -1,6 +1,6 @@
 import exemplo.Lote;
 import exemplo.Produto;
-
+import Repositories.ProdutoRepository;
 public class Sistema {
 
 	public static void main(String[] args) {
@@ -11,4 +11,5 @@ public class Sistema {
 		System.out.println(produto);
 		System.out.println(lote);
 	}
+
 }
